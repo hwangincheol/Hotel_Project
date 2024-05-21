@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.roominfo {
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+    border: 5px solid #F29661;
+    margin: 5%;
+    position: relative;
+}
+.roominfo img {
+    width: 40%;
+    height: 500px;
+    float: left;
+    margin-right: 20px;
+}
+.roominfo p span {
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+.roominfo p {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 0;
+}
+.roominfo #content {
+    font-size: 30px;
+    font-weight: 300;
+}
+.subimages {
+    width: 100%;
+    display: flex;
+    float: left;
+    justify-content: center;
+    margin-top: 30px;
+}
+.subimages img {
+    width: 30%;
+    height: 200px;
+    margin-left: 20px;
+}
+button {
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+

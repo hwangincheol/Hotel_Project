@@ -1,0 +1,479 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap')
+	;
+
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+html, body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.nanummyeongjo * {
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+.header {
+	text-align: center;
+	font-size: 22px;
+}
+
+.header tr th {
+	width: 13%;
+	position: relative;
+}
+
+.header tr th:hover {
+	text-shadow: 0px 0px 3px black;
+}
+
+.header a:link {
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.header a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.header a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 1140px;
+	height: 684px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+#container>img {
+	width: 1140px;
+	height: 684px;
+}
+
+#container>button {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	border: none;
+	padding: 20px;
+	background-color: transparent;
+	color: #ffffff;
+	font-weight: 1000;
+	font-size: 30px;
+	opacity: 1;
+}
+
+#prev {
+	left: 15px;
+}
+
+#next {
+	right: 15px;
+}
+
+/* 폰트 사이즈 [ 객셀전체 ] */
+.pageTitle {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin: 80px 0 40px;
+}
+/* 폰트 사이즈 및 background img */
+.service {
+	width: 100%;
+	height: 200px;
+	font-size: 56px;
+	background-image:
+		url('https://www.nesthotel.co.kr/img/sub/img_room_top.jpg');
+	text-align: center;
+	line-height: 3.5;
+}
+
+.roomimg {
+	display: flex;
+	justify-content: center;
+}
+
+.roomimg1, .roomimg2, .roomimg4 {
+	width: 700px;
+	height: 400px;
+}
+
+.roomimg1 {
+	padding-right: 18px;
+	margin-bottom: 10px;
+}
+
+.roomimg2 {
+	padding-left: 18px;
+	margin-bottom: 10px;
+}
+
+.roomimg3 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 150px;
+	margin-top: 70px;
+}
+
+.roomimg4 {
+	padding-left: 18px;
+	margin-bottom: 10px;
+}
+
+.text1 {
+	font-size: 30px;
+	font-weight: 80px;
+}
+
+.text4 {
+	font-size: 30px;
+	font-weight: 80px;
+	margin-left: 16px;
+}
+
+.page_title {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin: 80px 0 40px
+}
+
+.line {
+	margin-top: 50px;
+	padding-top: 20px;
+	border-top: 1px solid #6c6767;
+	width: 930px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imgContainer {
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.service-info-area {
+	position: relative;
+	background: rgba(245, 245, 245, 1);
+	padding: 0 156px 40px;
+	text-align: center;
+}
+
+.service-info-division {
+	position: relative;
+	padding: 35px 42px;
+	text-align: center;
+	background: #fff;
+}
+
+.service-info-item .title {
+	display: table-cell;
+	line-height: 160%;
+	font-weight: 1000;
+	color: #333;
+	white-space: nowrap;
+	padding: 4px 0;
+}
+
+.service-info-item .ment {
+	display: table-cell;
+	word-break: break-all;
+	color: #333;
+	line-height: 160%;
+	padding: 4px 0 4px 20px;
+	text-align: left;
+}
+
+.service-info-heading {
+	position: relative;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Nanum Myeongjo', serif;
+	color: #000;
+	text-transform: uppercase;
+	padding: 45px 0 30px;
+	font-weight: 400;
+}
+
+.description_section {
+	padding: 0 488px 600px;
+}
+
+.description {
+	word-break: keep-all;
+	font-size: 22px;
+	padding-bottom: 20px;
+	color: #785327;
+	display: flex;
+	justify-content: center;
+	margin-left: -250px;
+	margin-top: 61px;
+}
+
+.description_section h3 {
+	font-size: 20px;
+	padding: 42px 0;
+	display: flex;
+	justify-content: center;
+	margin-left: -862px;
+	margin-bottom: -18px;
+}
+
+.cont1 {
+	font-size: 15px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	margin-left: -605px;
+}
+
+.description_section h4 {
+	font-size: 20px;
+	padding: 42px 0;
+	display: flex;
+	justify-content: center;
+	margin-left: -877px;
+	margin-bottom: -18px;
+}
+
+.cont3 {
+	font-size: 15px;
+	padding-bottom: 16px;
+	display: flex;
+	justify-content: center;
+	margin-left: -700px;
+}
+
+.description_section h5 {
+	font-size: 20px;
+	padding: 42px 0;
+	display: flex;
+	justify-content: center;
+	margin-left: -754px;
+	margin-bottom: -18px;
+}
+
+.cont4 {
+	font-size: 15px;
+	padding-bottom: 16px;
+	display: flex;
+	justify-content: center;
+	margin-left: -293px;
+}
+
+.description_section h6 {
+	font-size: 20px;
+	padding: 42px 0;
+	display: flex;
+	justify-content: center;
+	margin-left: -896px;
+	margin-bottom: -18px;
+}
+
+.cont6 {
+	font-size: 15px;
+	padding-bottom: 42px;
+	display: flex;
+	justify-content: center;
+	margin-left: -657px;
+}
+	
+.infoContainer {
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.container1 {
+	width:100%;
+	max-width: 1400px;
+	margin:0 auto;
+	position:relative;
+	display: flex;
+	justify-content: center;
+	margin-left: -307px;
+}
+
+.cont7 {
+	font-size: 15px;
+	padding-bottom: 4px;
+	display: flex;
+	justify-content: center;
+	margin-left: 104px;
+	width: -23px;
+}
+
+.description_section h8 {
+	font-size: 26px;
+	padding: 42px 0;
+	display: flex;
+	justify-content: center;
+	margin-left: -847px;
+	margin-bottom: -18px;
+}
+
+.imgContainer1 {
+	width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.service-info-area1 {
+	position: relative;
+	background: rgba(245, 245, 245, 1);
+	padding: 0px 478px 0px;
+	text-align: center;
+	margin-top: -20px;
+	margin-bottom: 171px;
+}
+
+.room-list-text {
+	margin: 0 0 20px;
+}
+
+.cont8 {
+	font-size: 15px;
+	padding-bottom: 103px;
+	display: flex;
+	justify-content: center;
+	margin-left: -657px;
+}
+
+.cont9 {
+	font-size: 17px;
+	padding-bottom: 53px;
+	display: flex;
+	justify-content: center;
+	margin-left: 110px;
+	text-align: left;
+	margin-top: 21px;
+}
+
+.description_section h9 {
+	font-size: 23px;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	margin-left: -717px;
+	margin-bottom: -18px;
+	margin-top: -149px;
+}
+
+.cont10 {
+	font-size: 17px;
+	padding-bottom: 103px;
+	display: flex;
+	justify-content: center;
+	margin-left: -552px;
+	margin-top: 8px;
+}
+
+.description_section h10 {
+	font-size: 23px;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	margin-left: -774px;
+	margin-bottom: -18px;
+	margin-top: -103px;
+}
+
+.cont11 {
+	font-size: 17px;
+	padding-bottom: 103px;
+	display: flex;
+	justify-content: center;
+	margin-left: -613px;
+	margin-top: 8px;
+}
+
+.description_section h11 {
+	font-size: 23px;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	margin-left: -700px;
+	margin-bottom: -18px;
+	margin-top: -103px;
+}
+
+.cont12 {
+	font-size: 17px;
+	padding-bottom: 103px;
+	display: flex;
+	justify-content: center;
+	margin-left: -613px;
+	margin-top: 8px;
+	text-align: left;
+	margin-bottom: -92px;
+}
+
+.cont13 {
+	font-size: 17px;
+	padding-bottom: 103px;
+	display: flex;
+	justify-content: center;
+	margin-left: -613px;
+	margin-top: 8px;
+	text-align: left;
+	margin-bottom: -92px;
+}
+
+.description_section h12 {
+	font-size: 23px;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	margin-left: -700px;
+	margin-bottom: -18px;
+	margin-top: -103px;
+}
+
+.btn_alert:hover {
+	background: rgb(152 33 33);
+	color:#fff;
+	transition: 0.5s;
+}
+
+.wrap {
+	display: flex;
+	margin-left: 659px;
+	justify-content: center;
+	margin-top: -675px;
+	position: relative;
+	color:#fff;
+}
+

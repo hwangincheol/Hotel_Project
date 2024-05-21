@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap')
+	;
+
+html, body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header {
+	text-align: center;
+	font-size: 22px;
+}
+
+.header tr th {
+	width: 13%;
+	position: relative;
+}
+
+.header tr th:hover {
+	text-shadow: 0px 0px 3px black;
+}
+
+.header a:link {
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.header a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.header a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 90%;
+	height: 70%;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+
+/* 폰트 사이즈 [ 객셀전체 ] */
+.pageTitle {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin: 80px 0 40px;
+}
+/* 폰트 사이즈 및 background img */
+.service {
+	width: 100%;
+	height: 200px;
+	font-size: 56px;
+	background-image:
+		url('https://www.nesthotel.co.kr/img/sub/img_room_top.jpg');
+	text-align: center;
+	line-height: 3.5;
+}
+
+.roomimg{
+	display : flex;
+	justify-content: center;
+}
+
+.roomimg1 , .roomimg2 , .roomimg4{
+	width : 700px;
+	height : 400px; 
+}
+
+.roomimg1{
+	padding-right : 18px;
+	margin-bottom : 10px;	
+}
+
+.roomimg2{
+	padding-left : 18px;
+	margin-bottom : 10px;
+}
+
+.text1{
+	font-size: 30px;
+	font-weight: 80px;
+}
+
+.roomimg3{
+	display : flex;
+	justify-content: center;
+	margin-bottom: 100px;
+	margin-top: 60px;
+}
+
+.text4{
+	font-size: 30px;
+	font-weight: 80px;
+}
+
+.roomimg4{
+	margin-bottom : 10px;
+}
+
+.roomimg1:hover , .roomimg2:hover , .roomimg3:hover{
+  transform: scale(1.05);
+  transition: transform 1s;
+  filter: brightness(90%);
+}

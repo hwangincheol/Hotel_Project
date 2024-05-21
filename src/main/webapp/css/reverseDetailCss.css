@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.reserveTitle #title{
+    font-size: 50px;
+}
+.reserveTitle #subtitle {
+    font-size: 30px;
+}
+.reserveTitle #menu {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+#body {
+    margin-top: 30px;
+}
+#body img {
+    width: 50%;
+    margin-top: 20px;
+}
+.centerd {
+    display: flex;
+    justify-content: center;
+}
+.centerd td {
+    padding: 10px;
+}
+.centerd label, input {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.centerd label { 
+    font-size: 22px;
+    font-weight: 400;
+}
+.centerd input {
+    width: 130px;
+    height: 30px;
+    text-align: center;
+}
+.personButtons td {
+    display: inline-block;
+}
+.personButtons button {
+    width: 30px;
+    height: 30px;
+}
+.centerd table td button {
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+}
+input[id="roomName"] {
+    width: 190px;
+}
+input[id="numOfUser"] {
+	font-size: 16px;
+}
+input[id="diffDay"] {
+	font-size: 20px;
+}
