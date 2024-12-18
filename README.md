@@ -23,3 +23,7 @@
 <br><br><br>
 
 ### ㅁ 프로젝트 구조
+<br>
+
+### ㅇ ERD
+![슬라이드9](https://github.com/user-attachments/assets/7a9c84cb-0e34-4bf2-b85f-64ddf311165d)
