@@ -17,7 +17,6 @@
 - 심영섭 - 객실정보, 상세페이지 UI 제작 및 기능 구현, 호텔 자료수집)
 - 김 진  -  이용후기 페이지 UI 제작 및 기능 구현, PPT 자료 준비, 문서 작업)
 <br>
-
 ### ㅇ 개발 환경
 ![슬라이드6](https://github.com/user-attachments/assets/76e0ae26-9604-4dce-a1a2-314e41c4c495)
 <br><br><br>
