@@ -1,4 +1,4 @@
-# HOTEL 예약 사이트 - 팀 프로젝트
+# HOTEL 예약 사이트 - 팀 프로젝트  (2023/05/09 ~ 2023/05/18)
 ![슬라이드1](https://github.com/user-attachments/assets/a9e5e71b-ec10-4ad6-9259-4b278339439e)
 <br>
 
