@@ -22,7 +22,7 @@
 ![슬라이드6](https://github.com/user-attachments/assets/76e0ae26-9604-4dce-a1a2-314e41c4c495)
 <br><br><br>
 
-### ㅁ 프로젝트 구조
+## ㅁ 프로젝트 구조
 <br>
 
 ### ㅇ ERD
