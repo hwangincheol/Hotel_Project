@@ -4,6 +4,8 @@
 ### ㅇ 프로젝트 개요
 ![슬라이드4](https://github.com/user-attachments/assets/59374123-5967-48ac-b8ed-8236d6acfb6d)
 
+##    프로젝트 일정 
+![슬라이드7](https://github.com/user-attachments/assets/c42000fe-f2c9-48c3-962d-d5d185f1342a)
 
 
 ### ㅇ 인원 및 역할
